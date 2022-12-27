@@ -7,3 +7,8 @@ To create the your virtual environment and install packages from a requirements.
 
 To remove the virtual environment:
 `source remove_venv.sh`
+
+### TODO
+
+1. setup.py
+
