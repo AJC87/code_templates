@@ -1,6 +1,7 @@
 package main
 
 import (
+	// "context"
 	"fmt"
 	"os"
 	"os/signal"
@@ -21,6 +22,8 @@ func cleanup() {
 }
 
 func main() {
+	// ctx := context.TODO()
+
 	// TODO: could we put this stuff in a function
 	signals := make(chan os.Signal, 1)
 
