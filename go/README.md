@@ -1,3 +1,8 @@
+Run tests with:
+
+# Get this working!
+`go test`
+
 # TODO
 
 1. Logging
