@@ -1,1 +1,20 @@
-FROM mcr.microsoft.com/dotnet/sdk:7.0 AS build
+# syntax=docker/dockerfile:1
+# Build stage
+FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
+
+WORKDIR /app
+
+COPY . ./
+
+RUN dotnet restore
+RUN dotnet publish -c Release -o out
+
+# Runtime stage
+FROM mcr.microsoft.com/dotnet/aspnet:8.0
+
+WORKDIR /app
+
+COPY --from=build-env /app/out .
+
+# Replace with actual application name
+ENTRYPOINT ["dotnet", "app.dll"]
