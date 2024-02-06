@@ -9,3 +9,4 @@
 `dotnet new console -o app`
 
 ASP.NET Core: 
+`dotnet new webapi -o app`

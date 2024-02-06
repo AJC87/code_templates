@@ -2,4 +2,6 @@ Dockerfile
 .dockerignore
 README.md
 
+bin
+obj
 *.dll
