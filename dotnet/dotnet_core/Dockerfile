@@ -5,7 +5,7 @@ FROM mcr.microsoft.com/dotnet/sdk:8.0 AS build
 WORKDIR /app
 
 # TODO: do we need to copy everything
-COPY . ./
+COPY . .
 
 RUN dotnet restore
 RUN dotnet publish -c Release -o out

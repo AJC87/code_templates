@@ -6,12 +6,12 @@ WORKDIR /app
 
 COPY *.sln .
 # Is source dir right? Is destination right?
-COPY app/*.csproj ./
+COPY *.csproj .
 
 RUN dotnet restore
 
 # Check all this
-COPY app/. ./
+COPY . .
 
 # no-restore maybe not working?
 RUN dotnet publish -c release -o out --no-restore
@@ -22,6 +22,6 @@ FROM mcr.microsoft.com/dotnet/aspnet:8.0
 WORKDIR /app
 
 # Is destination right?
-COPY --from=build /app/out ./
+COPY --from=build /app/out .
 
 ENTRYPOINT ["dotnet", "app.dll"]

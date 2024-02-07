@@ -13,3 +13,4 @@ Run with:
 2. dumb-init
 3. Signal events
 4. Debugging stuff
+5. JSON Schema
