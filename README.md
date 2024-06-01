@@ -7,3 +7,5 @@ A library of my templates for different languages
 4. Wiremock
 5. For Java/Kotlin and maybe other languages  https://docs.docker.com/build/cache/#use-the-dedicated-run-cache
 6. Firebase
+7. JS - SuperTest
+8. Spring Modulith
