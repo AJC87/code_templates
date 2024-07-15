@@ -9,3 +9,4 @@ Contains Lombok
 5. Gson
 6. ModelMapper
 7. Project Reactor/Spring WebFlux
+8. Spring caching

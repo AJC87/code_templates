@@ -5,6 +5,7 @@
 3. NUnit
 4. Docker commands
 5. AutoMapper maybe
+6. IMemoryCache
 
 .NET Core: 
 `dotnet new console -o app`

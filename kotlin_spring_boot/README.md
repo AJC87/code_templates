@@ -8,3 +8,4 @@
 6. ModelMapper
 7. Arrow
 8. Project Reactor/Spring WebFlux
+9. Spring caching
