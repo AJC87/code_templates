@@ -14,3 +14,4 @@ Run with:
 3. Signal events
 4. Debugging stuff
 5. JSON Schema
+6. npm audit package signing
