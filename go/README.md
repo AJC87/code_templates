@@ -10,3 +10,4 @@ Run tests with:
 3. GCP/AWS SDK auth
 4. CLI package
 5. GOGC, GOMEMLIMIT
+6. struct constructor function
