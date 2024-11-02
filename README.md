@@ -10,3 +10,4 @@ A library of my templates for different languages
 7. JS - SuperTest
 8. Spring Modulith
 9. JVM language CodeArtifact
+10. Circuit breaker
