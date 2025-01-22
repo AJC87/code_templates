@@ -11,3 +11,4 @@ A library of my templates for different languages
 8. Spring Modulith
 9. JVM language CodeArtifact
 10. Circuit breaker
+11. SSH convenience scripts for each cloud
