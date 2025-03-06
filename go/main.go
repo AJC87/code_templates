@@ -21,6 +21,10 @@ func cleanup() {
 	fmt.Println("fill me in!")
 }
 
+func init() {
+	fmt.Println("In init")
+}
+
 func main() {
 	// ctx := context.TODO()
 
