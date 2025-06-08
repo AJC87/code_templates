@@ -15,3 +15,7 @@ Run with:
 4. Debugging stuff
 5. JSON Schema
 6. npm audit package signing
+7. TS exhaustiveness checking
+8. TS output .d.t.s files too
+9. package.json types field
+10. tsc —init

@@ -11,3 +11,6 @@ Run tests with:
 4. CLI package
 5. GOGC, GOMEMLIMIT
 6. struct constructor function
+7. Error check function
+8. go fmt on save
+9. Pass struct by pointer
