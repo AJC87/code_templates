@@ -12,3 +12,8 @@ A library of my templates for different languages
 9. JVM language CodeArtifact
 10. Circuit breaker
 11. SSH convenience scripts for each cloud
+
+## Android
+
+1. Make app
+2. Crashlytics
