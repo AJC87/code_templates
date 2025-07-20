@@ -12,6 +12,8 @@ A library of my templates for different languages
 9. JVM language CodeArtifact
 10. Circuit breaker
 11. SSH convenience scripts for each cloud
+12. mvn package -T 1C
+13. Use Cursor
 
 ## Android
 
