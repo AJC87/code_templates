@@ -14,6 +14,10 @@ A library of my templates for different languages
 11. SSH convenience scripts for each cloud
 12. mvn package -T 1C
 13. Use Cursor
+14. Mermaid
+15. CODEOWNERS
+16. Backstage
+17. Spring Security
 
 ## Android
 
