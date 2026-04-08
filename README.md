@@ -18,6 +18,13 @@ A library of my templates for different languages
 15. CODEOWNERS
 16. Backstage
 17. Spring Security
+18. Wrap logging so that we make logs consistent/structured
+19. Lucidchart
+20. Get JVM to return memory
+21. fastlane
+22. Gherkin/Cucumber
+23. Stress/performance testing
+24. Notion
 
 ## Android
 

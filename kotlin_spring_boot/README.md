@@ -9,3 +9,4 @@
 7. Arrow
 8. Project Reactor/Spring WebFlux
 9. Spring caching
+10. Kotlin JPA plugin
